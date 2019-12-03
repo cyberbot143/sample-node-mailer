@@ -1,0 +1,22 @@
+{
+  "name": "mail-sendgrid-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -r esm main.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  },
+  "author": "",
+  "description": ""
+}
